@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ExampleXML(failed)">
+    <classes>
+      <class name="SeleniumExamples.NewTest1">
+        <methods>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- SeleniumExamples.NewTest1 -->
+      <class name="SeleniumExamples.AppTest">
+        <methods>
+          <include name="VerifyLogin"/>
+        </methods>
+      </class> <!-- SeleniumExamples.AppTest -->
+    </classes>
+  </test> <!-- ExampleXML(failed) -->
+</suite> <!-- Failed suite [Suite] -->
