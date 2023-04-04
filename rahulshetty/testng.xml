@@ -7,7 +7,7 @@
   <test thread-count="5" name="Test">
     <classes>
      
-      <class name="rahulshetty.AppTest"/>
+      <class name="rahulshetty.ActionBase"/>
      
     </classes>
   </test> <!-- Test -->
